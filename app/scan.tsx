@@ -101,7 +101,8 @@ const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "space-between",
     paddingHorizontal: spacing.md,
-    paddingVertical: spacing.sm,
+    paddingVertical: spacing.lg,
+    marginTop: spacing.xxl,
     backgroundColor: colors.background,
   },
   backButton: {
