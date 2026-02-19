@@ -97,7 +97,7 @@ const styles = StyleSheet.create({
     backgroundColor: colors.background,
   },
   greenArea: {
-    flex: 6,
+    flex: 7,
     backgroundColor: "#F0F4E8",
   },
   controls: {
