@@ -102,7 +102,7 @@ export default function CustomTabBar({ state, descriptors, navigation }: any) {
 const styles = StyleSheet.create({
   tabBarContainer: {
     position: "absolute",
-    bottom: 0,
+    bottom: -10,
     left: 0,
     right: 0,
     backgroundColor: "transparent",
