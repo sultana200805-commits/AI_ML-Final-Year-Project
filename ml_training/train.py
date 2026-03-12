@@ -14,9 +14,9 @@ from trainer import ModelTrainer
 
 
 def main():
-    NUM_CLASSES = 200  # Update based on your dataset
-    BATCH_SIZE = 32
-    EPOCHS = 50
+    NUM_CLASSES = 132  # Update based on your dataset
+    BATCH_SIZE = 16
+    EPOCHS = 80
     
     os.makedirs('models', exist_ok=True)
     
