@@ -1,3 +1,5 @@
+import tensorflow as tf
+from tensorflow.keras import layers, applications
 class BirdImageModel:
     def __init__(self, num_classes, input_shape=(224, 224, 3)):
         self.num_classes = num_classes

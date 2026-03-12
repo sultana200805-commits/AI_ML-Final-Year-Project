@@ -3,6 +3,15 @@ import os
 import numpy as np
 import tensorflow as tf
 from sklearn.model_selection import train_test_split
+from pathlib import Path
+
+from audio_preprocessor import AudioPreprocessor
+from image_preprocessor import ImagePreprocessor
+from dataset_builder import BirdDatasetBuilder
+from audio_model import BirdAudioModel
+from image_model import BirdImageModel
+from trainer import ModelTrainer
+
 
 def main():
     NUM_CLASSES = 200  # Update based on your dataset
@@ -69,30 +78,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-```
-
----
-
-## PHASE 4: FastAPI Backend
-
-### Step 10: Project Structure
-```
-backend/
-├── main.py
-├── routers/
-│   └── bird_recognition.py
-├── services/
-│   ├── audio_service.py
-│   ├── image_service.py
-│   └── prediction_service.py
-├── models/
-│   ├── bird_audio_model.h5
-│   ├── bird_image_model.h5
-│   └── label_encoder.pkl
-├── database/
-│   ├── db.py
-│   └── bird_data.py
-├── schemas/
-│   └── bird_schema.py
-├── requirements.txt
-└── Dockerfile

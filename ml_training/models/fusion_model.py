@@ -1,3 +1,5 @@
+import tensorflow as tf
+from tensorflow.keras import layers
 class BirdFusionModel:
     """
     Late Fusion: Combine predictions from both models
